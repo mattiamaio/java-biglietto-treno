@@ -28,16 +28,13 @@ public class CalcolaBiglietto {
 		//conditions
 		if (age < 18) {
 			ticketPrice = (ticketPrice - ((ticketPrice * 20) / 100));
-			System.out.println(("Your ticket fare is: ") + ticketPrice + "\u20AC");
-		
+			
 		} else if (age >= 65) {
 			ticketPrice = (ticketPrice - ((ticketPrice * 40) / 100));
-			System.out.println(("Your ticket fare is: ") + ticketPrice + "\u20AC");
 		
-		} else {
-			System.out.println(("Your ticket fare is: ") + ticketPrice + "\u20AC");
-		}
-			
+		} 
+		
+		System.out.println(("Your ticket fare is: ") + ticketPrice + "\u20AC");	
 		System.out.println("Thank you for traveling with us!");
 		
 		
