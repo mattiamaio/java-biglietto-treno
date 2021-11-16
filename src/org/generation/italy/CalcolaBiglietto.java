@@ -32,7 +32,9 @@ public class CalcolaBiglietto {
 		} else if (age >= 65) {
 			ticketPrice = (ticketPrice - ((ticketPrice * 40) / 100));
 		
-		} 
+		} else {
+			ticketPrice = distance * pricePKm;
+		}
 		
 		System.out.println(("Your ticket fare is: ") + ticketPrice + "\u20AC");	
 		System.out.println("Thank you for traveling with us!");
