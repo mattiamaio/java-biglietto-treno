@@ -17,7 +17,7 @@ public class CalcolaBiglietto {
 		System.out.println("Good morning!");
 		
 		//scan user data
-		System.out.print("Please enter travel distance: ");
+		System.out.print("Please enter travel distance in km: ");
 		distance = input.nextDouble();
 		
 		System.out.print("Please enter your age: ");
